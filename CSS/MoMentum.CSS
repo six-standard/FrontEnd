@@ -1,0 +1,131 @@
+/*숨기기*/
+.hidden {
+    display: none;
+}
+
+.fade-in { 
+    animation: fadein 1.2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.Top {
+    position: relative;
+    font-family: Arial;
+    color: whitesmoke;
+}
+
+#weather {
+    position: absolute;
+    text-align: right;
+    right: 0.5%;
+    top: 0%;
+    font-size: 12px;
+    font-weight: lighter;
+    top: -5px;
+} #weather span:first-child {
+    font-size: 25px;
+}
+
+/*중앙 값들*/
+.Middle {
+    position: relative;
+    font-family: Arial;
+    color: whitesmoke;
+} 
+
+#clock { /*시계 (00:00)*/
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 140px;
+    font-size: 145px;
+    font-weight: 500;
+} #title { /*유저 환영문 (Good morning, user.)*/
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 350px;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#Login { /*로그인 폼*/
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 402px;
+    font-size: 30px;
+} #Login input[type=text] { /*이름 입력 창*/
+	width: 350px;
+    height: 32px;
+    font-size: 30px;
+    border: 0;
+    color: whitesmoke;
+    outline: none;
+    padding-left: 10px;
+    text-align: center;
+    background: transparent;
+} #Login input[type=text]::placeholder { /*이름 입력 창 힌트(What's your name?)*/
+    color: whitesmoke;
+    opacity: 0.5;
+} #bar { /*이름 입력 창 아래 막대*/
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 440px;
+    width: 340px;
+	height: 2px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.ToDo {
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 460px;
+    font-size: 30px;
+} .ToDo input[type=text] {
+	width: 450px;
+    height: 32px;
+    font-size: 20px;
+    border: 0;
+    color: whitesmoke;
+    outline: none;
+    padding-left: 10px;
+    text-align: center;
+    background: transparent;
+} .ToDo input[type=text]::placeholder {
+    color: whitesmoke;
+    opacity: 0.5;
+} #barTD {
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 43px;
+    width: 450px;
+	height: 2px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+/*아래 값들*/
+.Bottom {
+    position: relative;
+    color: whitesmoke;
+    font-family: Arial;
+} 
+
+#quote {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 670px;
+    font-size: 13px;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="/CSS/MoMentum.CSS">
+</head>
+<body>
+    <!-- Top (Weather)-->
+    <div class="Top">
+        <h1 id="weather" class="fade-in">
+            <span></span>
+            <br>
+            <span></span>
+        </h1>
+    </div>
+
+    <!-- Middle (Clock, Greet)-->
+    <div class="Middle">
+        <h1 class="fade-in" id="clock">00:00</h1>
+        <h1 class="hidden fade-in" id="title">Good morning</h1>
+        <form class="hidden fade-in" id="Login">
+            <input type="text" placeholder="What Is Your Name?" maxlength="20"/>
+        </form>
+        <div class="hidden fade-in" id="bar"></div>
+    </div>
+
+    <!-- Bottom (Quote)-->
+    <div class="Bottom">
+        <h1 class="fade-in", id="quote"><span></span> - <span></span></h1>
+    </div>
+
+    <!-- Script Files -->
+    <script src="/JavaScript/Login.JS"></script>
+    <script src="/JavaScript/Clock.JS"></script>
+    <script src="/JavaScript/Quotes.JS"></script>
+    <script src="/JavaScript/Background.JS"></script>
+    <script src="/JavaScript/Weather.JS"></script>
+</body>
+</html>
