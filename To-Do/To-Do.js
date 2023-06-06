@@ -16,7 +16,7 @@ function removetodo(event) { //강좌 없이 짠 코드이다 (todo 삭제버튼
     const todos = JSON.parse(localStorage.getItem("todos"));
     let i = 0;
     todos.forEach( e => { //로컬스토리지에서 가져온 각 값마다 반복한다
-        if(e.key==clickedtodo) todos.splice(i, 1);
+        if(e.key==clickedtodo) { todos.splice(i, 1); return false; }
         i++;
     });
     localStorage.setItem("todos", JSON.stringify(todos));
