@@ -5,8 +5,8 @@
 
 #left {
     position: absolute;
-    left:41%;
-    top: 42px;
+    margin-left: 41%;
+    margin-top: 42px;
     font-weight: bolder;
 } #date {
     position: absolute;
