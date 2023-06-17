@@ -1,0 +1,14 @@
+.left {
+    display: inline-flex;
+    background-color: gray;
+    width: inherit;
+    float: left;
+}
+
+.right {
+    display: inline-flex;
+    background-color: gray;
+    width: inherit;
+    float: right;
+    justify-content: right;
+}

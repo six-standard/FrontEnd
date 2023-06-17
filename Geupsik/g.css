@@ -1,51 +1,33 @@
-.meal {
-    position: relative;
+body {
     font-family: Arial;
 }
 
-#left {
-    position: absolute;
-    margin-left: 41%;
-    margin-top: 42px;
+.dateinfo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
     font-weight: bolder;
-} #date {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    top: 10px;
     color: #505050;
-} #right {
-    position: absolute;
-    right:41%;
-    top: 42px;
-    font-weight: bolder;
-} #today {
-    position: absolute;
-    right: 50%;
-    top: 500px;
-    z-index: 10;
-    transform: translate(50%, 0%);
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+    gap: 35px;
 }
 
 .frame{
-    position: absolute;
-    top: 100px;
-    background-color: lightgray;
-    color: #505050;
-    border-radius: 10% 10%;
-    border: 2px solid black;
-    box-shadow: 10px 10px 50px 0 gray;
     width: 200px;
     height: 300px;
+    border: 2px solid black;
+    border-radius: 5% 5%;
+    box-shadow: 10px 10px 50px 0 gray;
+    background-color: lightgray;
+    color: #505050;
     text-align: center;
-    font-size: 10px;
-} #breakfast {
-    left: 25%;
-} #lunch {
-    left: 50%;
-    transform: translate(-50%, 0%);
-} #dinner {
-    right: 25%;
-} .frame span {
-    font-size: 13px;
+    font-size: 12px;
 }
