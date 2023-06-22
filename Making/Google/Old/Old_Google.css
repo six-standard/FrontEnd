@@ -56,17 +56,17 @@
     display: block;
     margin-top: 71px;
     text-align: center;
-} #searchbar {
+} #search {
     text-align: center;
     margin: 0px auto;
-} #searchbar/* > input*/ {
+} #search > input {
     width: 579px;
     height: 42px;
     border: 1.5px solid #5F6368;
     background-color: #202124;
     color: white;
     border-radius: 50px 50px;
-} #searchbar:hover,
+} #search > input:hover,
 #search > input:focus{
     background-color: #303134;
     border: 1.5px solid #303134;
