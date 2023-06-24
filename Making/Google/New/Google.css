@@ -6,3 +6,21 @@ body {
     color: #ffffff;
     font-size: 14px;
 }
+
+header { height: 60px; }
+main { height: 770px; }
+footer { height: 100px; }
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.right {
+    display: inline-block;
+    flex-grow: 1;
+} .right > img {
+    height: 10px;
+    width: 10px;
+}
