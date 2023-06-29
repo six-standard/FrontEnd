@@ -1,0 +1,29 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 390px;
+    height: 300px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 10px gray;
+} th {
+    background-color: #939393;
+    border: 2px solid white;
+    border-radius: 10px 10px;
+
+} .today {
+    background-color: rgb(184, 184, 184);
+    border-radius: 10px 10px;
+}

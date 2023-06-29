@@ -1,8 +1,14 @@
+/*구글 CSS 가이드라인을 따랐기 때문에, 속성 정렬 방식이 abc순입니다.*/
+
 body {
-    padding: 0px;
-    margin: 0px;
     background-color: #202124;
-    font-family: Arial;
     color: #ffffff;
+    font-family: Arial;
     font-size: 14px;
+    margin: 0px;
+    padding: 0px;
 }
+
+header { height: 60px; }
+main { height: 543px; }
+footer { height: 100px; }

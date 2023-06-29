@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "neis": "^0.5.1",
+    "school-kr": "^3.1.2"
+  }
+}
